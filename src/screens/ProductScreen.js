@@ -27,6 +27,7 @@ function ProductScreen({ match, history }) {
     //   setProduct(data);
     // }
     // fetchProduct();
+    //test push
     dispatch(listProductDetails(match.params.id));
     console.log(qty);
   }, [dispatch, match]);
